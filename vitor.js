@@ -1,3 +1,3 @@
-const nomeResponsavel = "Vitor Piedras";
+const NOMERESPONSAVEL = "Vitor Piedras";
 
-console.log(nomeResponsavel);
+console.log(NOMERESPONSAVEL);
