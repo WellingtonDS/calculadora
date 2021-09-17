@@ -2,7 +2,7 @@
 
 function insert(num)
 {
-   var numero = document.getElementById('resultado').innerHTML;
+   const numero = document.getElementById('resultado').innerHTML;
    document.getElementById('resultado').innerHTML = numero + num;
 }
 
@@ -13,16 +13,17 @@ function clean()
     document.getElementById('resultado').innerHTML= " ";
 }
 
+//funcao para apagar um numero
 function back()
 {
- var resultado = document.getElementById('resultado').innerHTML;
+ const resultado = document.getElementById('resultado').innerHTML;
  document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
 }
 
-
+//funcao para calcular
 function calcular()
 {
-    var resultado = document.getElementById('resultado').innerHTML;
+    const resultado = document.getElementById('resultado').innerHTML;
     
     if(resultado)
     {
